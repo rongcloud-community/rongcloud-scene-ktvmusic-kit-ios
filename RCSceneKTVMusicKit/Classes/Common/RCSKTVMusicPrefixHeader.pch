@@ -1,0 +1,21 @@
+//
+//  RCSKTVMusicPrefixHeader.pch
+//  Pods
+//
+//  Created by 彭蕾 on 2022/6/20.
+//
+
+#ifndef RCSKTVMusicPrefixHeader_pch
+#define RCSKTVMusicPrefixHeader_pch
+
+// third party
+#import <SVProgressHUD/SVProgressHUD.h>
+#import <YYModel/YYModel.h>
+#import <Masonry/Masonry.h>
+
+// RCS Kit
+#import <RCSceneBaseKit/RCSBaseKit.h>
+
+#import "RCSKTVConstant.h"
+
+#endif /* RCSKTVMusicPrefixHeader_pch */

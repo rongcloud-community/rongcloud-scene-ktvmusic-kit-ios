@@ -1,0 +1,110 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - Masonry (1.1.0)
+  - MJRefresh (3.7.5)
+  - RCSceneBaseKit (0.1.2):
+    - RCSceneBaseKit/FoundationKit (= 0.1.2)
+    - RCSceneBaseKit/UIKit (= 0.1.2)
+    - RCSceneBaseKit/Utils (= 0.1.2)
+  - RCSceneBaseKit/FoundationKit (0.1.2)
+  - RCSceneBaseKit/UIKit (0.1.2)
+  - RCSceneBaseKit/Utils (0.1.2)
+  - RCSceneKTVMusicKit (0.1.0):
+    - Masonry
+    - RCSceneBaseKit
+    - RCSceneKTVMusicKit/Common (= 0.1.0)
+    - RCSceneKTVMusicKit/KTVLyric (= 0.1.0)
+    - RCSceneKTVMusicKit/KTVMusicLibrary (= 0.1.0)
+    - RCSceneKTVMusicKit/KTVScreen (= 0.1.0)
+    - RCSceneKTVMusicKit/KTVTuner (= 0.1.0)
+    - SVProgressHUD
+    - YYModel
+  - RCSceneKTVMusicKit/Common (0.1.0):
+    - Masonry
+    - RCSceneBaseKit
+    - SVProgressHUD
+    - YYModel
+  - RCSceneKTVMusicKit/KTVLyric (0.1.0):
+    - Masonry
+    - RCSceneBaseKit
+    - RCSceneKTVMusicKit/Common
+    - SVProgressHUD
+    - YYModel
+  - RCSceneKTVMusicKit/KTVMusicLibrary (0.1.0):
+    - Masonry
+    - MJRefresh
+    - RCSceneBaseKit
+    - RCSceneKTVMusicKit/Common
+    - RCSceneNetworkKit
+    - SDWebImage
+    - SVProgressHUD
+    - YYModel
+  - RCSceneKTVMusicKit/KTVScreen (0.1.0):
+    - Masonry
+    - RCSceneBaseKit
+    - RCSceneKTVMusicKit/Common
+    - RCSceneKTVMusicKit/KTVLyric
+    - SVProgressHUD
+    - YYModel
+  - RCSceneKTVMusicKit/KTVTuner (0.1.0):
+    - Masonry
+    - RCSceneBaseKit
+    - RCSceneKTVMusicKit/Common
+    - SVProgressHUD
+    - YYModel
+  - RCSceneNetworkKit (0.1.3):
+    - AFNetworking
+    - RCSceneNetworkKit/Core (= 0.1.3)
+    - YYModel
+  - RCSceneNetworkKit/Core (0.1.3):
+    - AFNetworking
+    - YYModel
+  - SDWebImage (5.13.2):
+    - SDWebImage/Core (= 5.13.2)
+  - SDWebImage/Core (5.13.2)
+  - SVProgressHUD (2.2.5)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - RCSceneKTVMusicKit
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Masonry
+    - MJRefresh
+    - RCSceneBaseKit
+    - RCSceneKTVMusicKit
+    - RCSceneNetworkKit
+    - SDWebImage
+    - SVProgressHUD
+    - YYModel
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  RCSceneBaseKit: c864b84feb200290f4f4c1d446d7e190125ef0ab
+  RCSceneKTVMusicKit: ffed3ae51f5cbb5caf103f891677a2086a370d33
+  RCSceneNetworkKit: 2e7d6041be424dbbd3ba5aaca4f43a4f885b5ef5
+  SDWebImage: 72f86271a6f3139cc7e4a89220946489d4b9a866
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 2aa93f37bbd23c595ca76f1ee5549157c324d30f
+
+COCOAPODS: 1.11.3
